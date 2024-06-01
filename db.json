@@ -1,35 +1,9 @@
 {
-  "movies": [
-    {
-      "id": "76341"
-    },
-    {
-      "id": "12155"
-    },
-    {
-      "id": "1571"
-    },
-    {
-      "id": "9336"
-    },
-    {
-      "id": "414906"
-    }
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
   ],
-  "series": [
-    {
-      "id": "85077"
-    },
-    {
-      "id": "2691"
-    }
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
   ],
-  "books": [
-    {
-      "id": "9780606303248"
-    },
-    {
-      "id": "0393355942"
-    }
-  ]
+  "profile": { "name": "typicode" }
 }
