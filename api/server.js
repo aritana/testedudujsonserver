@@ -15,9 +15,9 @@ const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 
 const middlewares = jsonServer.defaults()
-
-server.use(middlewares)
 server.use(cors());
+server.use(middlewares)
+
 // Add this before server.use(router)
 server.use(jsonServer.rewriter({
     '/api/*': '/$1',
